@@ -1,0 +1,35 @@
+@media (max-width: 995px)
+{
+	.mainmenu 
+	{
+    	display: none!important;
+    }
+
+	.home-right-img
+	{
+		display: none !important;
+	}
+
+	.home-left-section
+	{
+		max-width: 100% !important;
+	}
+
+	.home-section h1
+	{
+		font-size: 35px !important;
+	}
+
+	.home-section h2
+	{
+		font-size: 15px !important;
+		letter-spacing: 6px !important;
+	}
+	
+	.home-section p
+	{
+		font-size: 14px !important;
+	}
+
+
+}
