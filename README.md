@@ -11,3 +11,15 @@
 		<li>PHP & MYSQL</li>
 	</ul>
 </div>
+<hr>
+<div>
+	<h3>Website presentation</h3>
+  	<p>
+		Admin Login Page: http://localhost/RestaurantWebsite/admin/
+	</p>
+	<p>
+		Username: jairi
+		<br>
+		Password: 123456789
+	</p>
+</div>
