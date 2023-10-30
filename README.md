@@ -16,10 +16,10 @@
 	<h3>Website presentation</h3>
   	<ul>
 		<li>https://www.youtube.com/watch?v=EufEpP4r230&ab_channel=IdrissJairi</li>
-		<li>Admin Login Page: http://localhost/RestaurantWebsite/admin/</li>
+		<li>Admin Login Page: http://localhost/restaurant-website-php-mysql/admin/</li>
 	</ul>
 	<p>
-		Username: jairi
+		Username: admin_user
 		<br>
 		Password: 123456789
 	</p>
@@ -29,10 +29,10 @@
 	<h3>Installation</h3>
   	<ol>
 		<li>Download the files + database file (.sql)</li>
-		<li>Create new database with the name "restaurant_website" and then Import the sql file downloaded </li>
+		<li>Create new database with the name "restaurant_website" and then Import the SQL file downloaded </li>
 		<li>Check the files connect.php to make sure that everything is working</li>
 		<li>The website is ready to use</li>
-		<li>Feel free to edit the missig parts or the existing parts</li>
+		<li>Feel free to edit the missing parts or the existing parts</li>
 	</ol>
 </div>
-<p>Questions and Clarifications: If you have any questions feel free to contact me: https://www.facebook.com/jairiidriss/</p>
+<p>Questions and Clarifications: If you have any questions feel free to contact me</p>
