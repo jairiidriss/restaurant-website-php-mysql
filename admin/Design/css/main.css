@@ -1,0 +1,723 @@
+/*** START COMMONN STYLES ***/
+
+a, a:hover 
+{
+	text-decoration: none !important;
+}
+
+ul 
+{
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*** END COMMON STYLES ***/
+
+
+
+/*** START HTML PAGE STYLE ***/
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+/*** END HTML PAGE STYLE ****/
+
+/*** START BODY STYLE ***/
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+/*** END BODY STYLE ****/
+
+/****** START ADMIN NAVBAR *****/
+
+.headerMenu
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    z-index: 1002;
+    background: #fff;
+    min-height: 60px;
+    padding: 10px 15px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
+}
+
+.nav-item-button
+{
+    padding: 10px;
+    line-height: 1;display: block;
+    border: 1px solid #f0f0f8;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #66686d;
+}
+
+.dropdown .nav-item-button:hover,.dropdown .nav-item-button:focus
+{
+    color: white;
+    background-color: #06adef !important;
+    border-color: #06adef !important;
+}
+
+.navbar-brand 
+{
+    font-family: inherit;
+    color: #323f52;
+    height: inherit;
+    padding: 0px;
+    line-height: 0px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.sidenav-menu-heading
+{
+    padding: 1.25rem 1rem 0.75rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #a2acba;
+}
+
+.active_link 
+{
+    text-decoration: none;
+    background: #06adef;
+    color: #fff !important;
+}
+
+.active_link i
+{
+    color: #fff !important;
+}
+
+
+
+.angleBottom
+{
+    position:absolute;
+    right:0;    
+    padding-right: 20px;
+    font-size: large;
+}
+
+
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover 
+{
+    background-color: #06adef;
+    border-color: #06adef;
+}
+
+.sub
+{
+    display: none; 
+    color:white;
+    overflow:hidden; 
+    padding:0
+}
+
+.sub-nav-item>.a-verMenu
+{
+    padding-left: 35px;
+    color: rgba(255,255,255,.8);
+}
+
+.vertical-menu
+{
+    width:240px;
+    float: left;
+    height: 100%;
+    position: fixed;
+    background: #fff;
+    top: 0;
+    bottom: 0;
+    z-index: 300;
+    -moz-box-shadow: -3px 0 10px 0 #555;
+    -webkit-box-shadow: -3px 0 10px 0 #555;
+    box-shadow: -3px 0 10px 0 #555;
+    overflow-y: scroll;
+}
+
+.vertical-menu .menu-bar
+{
+    padding:0px;
+    margin:0px;
+    margin-top: 75px;
+    position: relative;
+}
+
+.a-verMenu 
+{
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    line-height: normal;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    position: relative;
+    color: #1f2d41;
+    padding: 0.75rem 1rem;
+}
+
+.icon-ver 
+{
+    width: 25px;
+    height: 18px;
+    text-align: center;
+    font-size: 15px;
+    background: none;
+    margin: 0;
+    padding: 0;
+    color: #a2acba;
+    font-weight: 900;
+    display: block;
+}
+
+.top-menu 
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.webpage-btn .nav-item-button 
+{
+    font-weight: 700;
+    color: #fff;
+    background: #26dd7d;
+    border: 1px solid #26dd7d;
+}
+
+.top-nav .top-menu .main-li 
+{
+    float: left;
+    margin-left: 10px;
+}
+
+.a-verMenu:hover 
+{
+    text-decoration: none;
+    background: #06adef;
+    color: #fff;
+}
+
+.a-verMenu:hover i 
+{
+    color: #fff !important;
+}
+
+
+/**** END ADMIN NAVBAR  ***/
+
+
+
+/** START ADMIN LOGIN PAGE STYLE ****/
+
+.login 
+{
+    max-width: 560px;
+    background: #fff;
+    position: relative;
+    margin: 15px auto;
+    padding: 55px 85px 55px 85px;
+    -webkit-box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
+    box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
+    border-radius: 3px;    
+}
+
+@media (max-width: 560px) 
+{
+    .login 
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+.login input[type="text"],
+.login input[type="password"]
+{
+    border: 1px solid #e6e6e6;
+    box-shadow: none;
+    color: #555555;
+    line-height: 1.2;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    background: transparent;
+    height: 55px;
+    padding: 0 25px 0 25px;
+    border-bottom-right-radius: 2px !important;
+    border-top-right-radius: 2px !important;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus
+{
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+
+.login button[type="submit"] 
+{
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    line-height: 40px;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+.login button[type="submit"]:hover 
+{
+    background: #17c;
+}
+
+/* Buttons' focus effect */
+.login button[type="submit"]:focus 
+{
+    border-color: #05a;
+}
+
+.login .forgotPW
+{
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: 0;
+}
+
+.login100-form-title 
+{
+    font-size: 30px;
+    color: #555555;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: left;
+    width: 100%;
+    display: block;
+    padding-bottom: 32px;
+}
+
+
+.login .txt1
+{
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.4;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+    display: block;
+    font-weight: bold;
+}
+
+.login .form-input 
+{
+    margin-bottom: 50px;
+}
+
+
+
+/** END ADMIN LOGIN PAGE STYLE ****/
+
+
+
+
+
+/** START DASHBOARD STYLE **/
+
+.panel 
+{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+}
+
+.panel-heading
+{
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+
+.panel-footer 
+{
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.huge > span 
+{
+    font-size: 30px;
+}
+
+.pull-left 
+{
+    float: left!important;
+}
+
+.pull-right 
+{
+    float: right!important;
+}
+
+.panel-primary 
+{
+    border-color: #337ab7;
+}
+
+.panel-primary>.panel-heading 
+{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.panel-green > .panel-heading 
+{
+    border-color: #5cb85c;
+    color: white;
+    background-color: #5cb85c;
+}
+
+.panel-primary>.panel-heading 
+{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.panel-red > .panel-heading 
+{
+    border-color: #d9534f;
+    color: white;
+    background-color: #d9534f;
+}
+
+.panel-yellow > .panel-heading 
+{
+    border-color: #f0ad4e;
+    color: white;
+    background-color: #f0ad4e;
+}
+
+.panel-green > a 
+{
+    color: #5cb85c;
+}
+
+.panel-red > a 
+{
+    color: #d9534f;
+}
+
+.panel-yellow > a 
+{
+    color: #f0ad4e;
+}
+
+.tab button 
+{
+    background: inherit;
+    color: #ffffff9c;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-bottom: 4px solid transparent;
+}
+
+/* Change background color of buttons on hover */
+
+.tab button:hover 
+{
+    color: #fff;
+}
+
+/* Create an active/current tablink class */
+
+.tab button.active 
+{
+    color: #fff;
+    border-bottom: 4px solid #ffd943;
+}
+
+.tab
+{
+    padding: 0px;
+    background: #06adef;
+    border: 0px;
+}
+
+/* Style the tab content */
+
+.tabcontent_orders, .tabcontent_reservations
+{
+    display: none;
+}
+
+/* Three buttons (Edit, Delete, View) */
+
+.list-inline
+{
+    display: flex;
+}
+
+
+
+/** END DASHBOARD STYLE ***/
+
+
+/** AVATAR UPLOAD STYLE START ***/
+
+.avatar-upload 
+{
+    position: relative;
+    max-width: 205px;
+    margin:auto;
+}
+
+.avatar-upload .avatar-edit 
+{
+    position: absolute;
+    right: 12px;
+    z-index: 1;
+    top: 10px;
+}
+
+.avatar-upload .avatar-edit input 
+{
+    display: none;
+}
+
+.avatar-upload .avatar-edit input + label 
+{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 0;
+    border-radius: 100%;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+
+.avatar-upload .avatar-edit input + label:hover 
+{
+    background: #f1f1f1;
+    border-color: #d6d6d6;
+}
+
+.avatar-upload .avatar-edit input + label:after 
+{
+    content: "\f093";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #757575;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.avatar-upload .avatar-preview 
+{
+    width: 192px;
+    height: 192px;
+    position: relative;
+    border-radius: 100%;
+    border: 6px solid #06adef;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-upload .avatar-preview > div 
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/** AVATAR UPLOAD STYLE END ***/
+
+/** PANEL-X START STYLE **/
+
+.panel-X
+{
+    border: 0;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+    border-radius: .25rem;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    margin: auto;
+    width: 600px;
+}
+
+.panel-header-X 
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.save-header-X 
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    min-height: 65px;
+    padding: 0 1.25rem;
+    background-color: #f1fafd;
+}
+
+.panel-header-X>.main-title 
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #313e54;
+    padding: 15px 0;
+}
+
+.panel-body-X
+{
+    padding: 1rem 1.25rem;
+}
+
+.save-header-X .icon
+{
+    width: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #5b6e84;
+    margin-right: 1.25rem;
+}
+
+
+/** PANEL-X END STYLE **/
+
+
+
+
+
+
+/*** START FOOTER BOTTOM STYLE ***/
+
+
+.footer_section 
+{
+    display: block;
+    background-color: #222227;
+    border-top: 1px solid #333;
+    padding: 30px 0;
+}
+
+.footer_section .copyright 
+{
+    font-size: 14px;
+    color: #ddd;
+}
+
+.footer_social 
+{
+    display: block;
+    text-align: right;
+}
+
+.footer_social li 
+{
+    display: inline-block;
+}
+.footer_social li a 
+{
+    font-family: "Work Sans",sans-serif;
+    color: #ddd;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+/*** END FOOTER BOTTOM STYLE ***/
+
+
